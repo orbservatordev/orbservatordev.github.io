@@ -69,12 +69,12 @@ header li a {
     background: url(media/TRAVAUX.jpg) no-repeat fixed 50% 50%;
     opacity: 0.8;
     background-size: cover;
-    height: 799px;
+    height: 1200px;
     
 }
 
 .construction h2{
-    padding: 100px;
+    padding-top: 300px;
     font-style: bold;
     font-size: 4em;
 }
