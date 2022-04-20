@@ -10,7 +10,7 @@ const controller = new ScrollMagic.Controller();
 
 //Scenes
 let scene = new ScrollMagic.Scene({
-  duration: 5000, //durée de la video
+  duration: 3000, //durée de la video
   offset: -59,
   triggerElement: intro,
   triggerHook: 0
@@ -40,5 +40,5 @@ scene.on('update', e=> {
 setInterval(() => {
     delay += (scrollPos - delay) * accelAmount;
     video.currentTime = delay;
-}, 40); // 33.3 = 1s (en ms) /nb fps ds video (ici 1000/30)
+}, 33); // 33.3 = 1s (en ms) /nb fps ds video (ici 1000/30)
 
