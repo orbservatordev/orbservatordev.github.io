@@ -36,6 +36,7 @@ a{
 /* *********************** NAVBAR *********************** */
 
 nav{
+    z-index: 5;
     overflow: hidden;
     background-color: #FFFAE1;
     position: fixed;
@@ -60,6 +61,22 @@ header li a {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     float: left;
+}
+
+/* *********************** Construction ************************* */
+.construction{
+    padding-top: 60px;
+    background: url(media/TRAVAUX.jpg) no-repeat fixed 50% 50%;
+    opacity: 0.8;
+    background-size: cover;
+    height: 799px;
+    
+}
+
+.construction h2{
+    padding: 100px;
+    font-style: bold;
+    font-size: 4em;
 }
 
 /* *********************** Img principale *********************** */
