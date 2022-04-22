@@ -83,15 +83,15 @@ header li a {
 
 #imgPrincipale{
     padding-top: 60px;
-    background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
-    background-size: cover;
-    height: 799px;
+    background: url(media/Logo-noir.png) no-repeat fixed 50% 20%;
+    background-size: auto;
+    height: 400px;
     
 }
 
 h1{
     font-family: 'Dancing Script', cursive;
-    text-align: center;
+    text-align: left;
     color: antiquewhite;
     font-size: 6em;
     margin-top: 100px;
@@ -100,11 +100,11 @@ h1{
 }
 
 #premierTrait{
-    height: 1px;
+    height: 2px;
     width: 30%;
-    margin: -3px auto;
+    margin: 250px auto -3px auto;
     background-color: #FFFAE1;
-    box-shadow: 4px 3px 2px black;
+    box-shadow: 4px 4px 3px black;
 
 }
 
